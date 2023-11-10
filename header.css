@@ -1,0 +1,28 @@
+.header{
+    font-family: Source Code Pro;
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    right: 0;
+    left: 0;
+    top: 0;
+    height: 30px;
+    z-index: 1000;
+}
+
+.email{
+    margin-left: 50px;
+}
+.linkedin{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.instagram{
+    width: 10px;
+    height: 10px;
+    margin-right: 20px;
+}

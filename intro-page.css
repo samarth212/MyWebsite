@@ -1,0 +1,73 @@
+body{
+    margin-bottom: 3000px;
+    margin-left:0px;
+    margin-right: 0px;
+    background-image: url(images/web-background.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.intro-page{
+    display: inline-block;
+    font-family: Source Code Pro;
+    color: white;
+    width: 350px;
+    margin: 0;
+}
+
+.welcome{
+    font-weight: 700;
+    font-size: 50px;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+.name{
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight:500;
+    font-style: italic;
+}
+.description{
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 0px;
+    font-size: 15px;
+}
+.pfp-container{
+    display: inline-block;
+    margin: 0px;
+    z-index: 1;
+    position: relative;
+    top: 0;
+}
+
+.pfp{
+    width: 200px;
+    border-radius: 120px;
+}   
+
+@media(min-width: 700px){
+    .intro-page{
+        width: 500px;
+    }
+}
+
+@media(min-width: 800px){
+    .intro-page{
+        width: 600px;
+    }
+}
+
+@media(min-width: 950px){
+    .intro-page{
+        width: 700px;
+    }
+}
+
+@media(min-width: 1100px){
+    .intro-page{
+        width: 900px;
+    }
+}
