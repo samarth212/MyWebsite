@@ -2,72 +2,40 @@ body{
     margin-bottom: 3000px;
     margin-left:0px;
     margin-right: 0px;
-    background-image: url(images/web-background.jpeg);
+    background-image: url(images/nature-purple-background.jpeg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-}
+    font-family: Source Code Pro;
 
+}
 
 .intro-page{
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
     font-family: Source Code Pro;
     color: white;
-    width: 350px;
-    margin: 0;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-left: 20px;
+    
 }
 
-.welcome{
-    font-weight: 700;
-    font-size: 50px;
-    margin-left: 20px;
-    margin-top: 60px;
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.name{
-    margin-left: 20px;
-    font-size: 25px;
-    font-weight:500;
-    font-style: italic;
+
+.title{
+    font-family: Open Sans;
+    font-size: 110px;
+    font-weight: 600;
+    margin-top: 200px;
 }
-.description{
+.title-desc{
     margin-top: 10px;
-    margin-left: 25px;
-    margin-right: 0px;
-    font-size: 15px;
-}
-.pfp-container{
-    display: inline-block;
-    margin: 0px;
-    z-index: 1;
-    position: relative;
-    top: 0;
-}
-
-.pfp{
-    width: 200px;
-    border-radius: 120px;
-}   
-
-@media(min-width: 700px){
-    .intro-page{
-        width: 500px;
-    }
-}
-
-@media(min-width: 800px){
-    .intro-page{
-        width: 600px;
-    }
-}
-
-@media(min-width: 950px){
-    .intro-page{
-        width: 700px;
-    }
-}
-
-@media(min-width: 1100px){
-    .intro-page{
-        width: 900px;
-    }
+    font-size: 30px;
 }
