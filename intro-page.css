@@ -1,5 +1,4 @@
 body{
-    margin-bottom: 3000px;
     margin-left:0px;
     margin-right: 0px;
     background-image: url(images/nature-purple-background.jpeg);
@@ -13,12 +12,15 @@ body{
 .intro-page{
     display: flex;
     flex-direction: row;
+    position: absolute;
     font-family: Source Code Pro;
     color: white;
     align-items: center;
     justify-content: center;
-    margin-top: 80px;
-    margin-left: 20px;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
     
 }
 
@@ -33,12 +35,14 @@ body{
     font-family: Open Sans;
     font-size: 110px;
     font-weight: 700;
-    margin-top: 200px;
-    text-shadow: 2px 2px 20px rgb(0,0,0);
-    margin-bottom: 60px;
+    margin: 0;
+    margin-bottom: 50px;
+    text-shadow: 6px 6px 8px rgb(0,0,0);
+    
 }
 .title-desc{
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 30px;
     margin-right: 80px;
+    text-shadow: 2px 2px 8px rgb(0,0,0);
 }
