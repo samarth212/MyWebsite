@@ -5,25 +5,39 @@
     height: 1000px;
     opacity: 0.85;
     z-index: 5;
+    display: flex;
+    justify-content: center;
 }
 .ab-info{
-    padding-left: 10px;
     padding-top: 20px;
     line-height: 20px;
     color: white;
-    margin-right: 30px;
+    margin-left: 400px;
+    margin-right: 400px;
+    max-width: 1000px;
+    min-width: 800px;
+
 }
-.about-me-title{
+.ab-title{
     color: white;
     font-family: Open Sans;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 40px;
     opacity: 1;
+    display: flex;
+    justify-content: center;
+}
+.ab-desc{
+    font-size: 20px;
+    line-height: 50px;
+    font-family: Open Sans;
+    color: rgb(150,150,150)
+
 }
 
 .pfp{
-    width: 150px;
-    height: 150px;
+    width: 160px;
+    height: 160px;
     object-fit: cover;
     border-radius: 300px;
     margin-right: 20px;
@@ -45,3 +59,39 @@
     justify-content: center;
     align-items: center;
 }
+
+.profile-skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile, .skills{
+    font-size: 20px;
+    line-height: 40px;
+    color: rgb(150,150,150);
+    max-width: 600px;
+    
+}
+
+.profile{
+    margin-left: -100px;
+}
+.skills{
+    margin-right: -100px;
+}
+
+.profile-title, .skills-title{
+    color: white;
+    font-weight: 600;
+    font-size: 27px;
+}
+.full-name-title, .birth-title, .age-title{
+    font-weight: bold;
+}
+
+span{
+    color:rgb(100, 100, 255)
+}
+
