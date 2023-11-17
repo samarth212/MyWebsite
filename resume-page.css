@@ -1,0 +1,126 @@
+.resume-page{
+    height: 1200px;
+    background-color: white;
+    opacity: 0.88;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resume-title{
+    color: black;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 40px;
+    opacity: 1;
+}
+
+.work-experience{
+    display: flex;
+    flex-direction: column;
+}
+.resume-section{
+    color: rgb(100, 0, 255);
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 30px;
+    opacity: 1;
+}
+
+.experience{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.role{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+}
+
+.role-title{
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.role-date{
+    font-size: 20px;
+    color: rgb(150, 150, 150);
+    margin: 0;
+}
+
+.work-image{
+    width: 50px;
+}
+.work-icon{
+    background-color: rgb(100, 0, 255);
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 65px;
+}
+.job{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 700px;
+    margin-left: 65px;
+}
+
+.company{
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.job-desc{
+    font-size: 20px;
+    color: rgb(150, 150, 150);
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.work-line{
+    width: 2px;
+    background-color: rgb(180, 180, 180);
+    height: 500px;
+    position: absolute;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 450px;
+    margin-top: 300px; 
+}
+
+.download-resume{
+    color: white;
+    background-color: rgb(100, 0, 255);
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    transition: opacity 0.4s, padding-right 0.5s, padding-left 0.5s, padding-top 0.8s, padding-bottom 0.8s;
+}
+
+.download-resume:hover{
+    opacity: 0.8;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.download-resume:active{
+    opacity: 0.3;
+}
