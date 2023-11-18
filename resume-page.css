@@ -1,5 +1,5 @@
 .resume-page{
-    height: 1200px;
+    height: 1500px;
     background-color: white;
     opacity: 0.88;
     display: flex;
@@ -15,7 +15,7 @@
     opacity: 1;
 }
 
-.work-experience{
+.work-ed-experience{
     display: flex;
     flex-direction: column;
 }
@@ -55,6 +55,10 @@
 
 .work-image{
     width: 50px;
+}
+
+.ed-image{
+    width: 30px;
 }
 .work-icon{
     background-color: rgb(100, 0, 255);
