@@ -1,0 +1,17 @@
+.activities-page{
+    height: 1000px;
+    background-color: black;
+    opacity: 0.88;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.activities-page-title{
+    margin-top: 10;
+    color: white;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 40px;
+    opacity: 1;
+}
