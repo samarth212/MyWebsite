@@ -1,5 +1,5 @@
 .activities-page{
-    height: 1000px;
+    height: 1500px;
     background-color: black;
     opacity: 0.88;
     display: flex;
@@ -14,4 +14,31 @@
     font-weight: 600;
     font-size: 40px;
     opacity: 1;
+}
+
+.activity{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.position-title{
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.activity-image{
+    width: 50px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.activity-company{
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: white;
 }
