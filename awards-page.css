@@ -1,5 +1,50 @@
 .awards-page{
-    height: 1000px;
+    height: 1500px;
     background-color: white;
     opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.awards-page-title{
+    margin-top: 10;
+    color: black;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 40px;
+    opacity: 1;
+}
+
+.award{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.award-img{
+    width: 30px;
+}
+
+.award-text{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    margin-left: 40px;
+}
+.award-title{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(100, 0, 255);
+    color: black;
+    margin-bottom: 10px;
+}
+
+.award-desc{
+    font-size: 25px;
+    color: rgb(100, 100, 100);
 }
