@@ -70,4 +70,12 @@
 }
 .drop-down{
     width: 50px;
+    position: relative;
 }
+
+.left-section:hover .menu{
+    opacity: 0.8;
+    transition: opacity 0.6s;
+
+}
+

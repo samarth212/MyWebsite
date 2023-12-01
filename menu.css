@@ -1,0 +1,27 @@
+.menu{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: gray;
+    padding-left: 15px;
+    padding-right: 15px;
+    opacity: 0;
+    border-radius: 10px;
+    bottom: -170px;
+    left: 0;
+}
+
+
+.nav{
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.nav:hover{
+    color: rgb(100, 0, 255)
+}
