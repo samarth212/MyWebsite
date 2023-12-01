@@ -19,9 +19,14 @@
     margin-top: 6px;
     margin-bottom: 6px;
     font-weight: 600;
+    color: white;
     transition: color 0.3s;
 }
 
 .nav:hover{
     color: rgb(100, 0, 255)
+}
+
+.nav-link{
+    text-decoration: none;
 }

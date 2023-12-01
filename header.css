@@ -72,6 +72,9 @@
     width: 50px;
     position: relative;
 }
+.drop-down:hover{
+    opacity: 0.4;
+}
 
 .left-section:hover .menu{
     opacity: 0.8;
