@@ -7,6 +7,13 @@
     align-items: center;
 }
 
+.awards-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 200px;
+}
 .awards-page-title{
     margin-top: 10;
     color: black;
@@ -14,6 +21,7 @@
     font-weight: 600;
     font-size: 40px;
     opacity: 1;
+
 }
 
 .award{
@@ -35,6 +43,7 @@
     align-items: left;
     justify-content: center;
     margin-left: 40px;
+    max-width: 800px;
 }
 .award-title{
     font-size: 30px;
