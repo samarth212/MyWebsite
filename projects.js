@@ -14,3 +14,4 @@ function addInfo(info, title, img){
     `
     document.querySelector(".info-content").innerHTML = infoHTML
 }
+
