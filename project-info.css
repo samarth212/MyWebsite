@@ -1,0 +1,36 @@
+.project-info{
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    background-color: azure;
+    z-index: 100;
+    margin-bottom: 350px;
+    top: 300px;    
+    opacity: 0.98;
+    display: flex;
+    justify-content: center;
+}
+.close-info{
+    position:absolute;
+    height: 100px;
+    width: 800px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.close-info p{
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.studysched{
+    font-family: Open Sans;
+    font-weight: 300;
+    font-size: 25px;
+    text-align: center;
+    margin: 550px 40px;
+}
