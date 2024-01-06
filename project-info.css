@@ -27,6 +27,15 @@
     font-family: Open Sans;
     font-size: 20px;
     font-weight: 600;
+    transition: color 0.3s;
+}
+.close-info p:hover{
+    color: rgb(100, 0, 255);
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .info-content{
@@ -37,7 +46,7 @@
 .info-text-div{
     display: flex;
     flex-direction: column;
-    margin: 450px 20px;
+    margin: 0px 20px;
 }
 .proj-info-header{
     font-size: 20px;
@@ -53,4 +62,16 @@
     font-family: Open Sans;
     color: rgb(150,150,150);
     color: gray;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.proj-img{
+    width: 400px;
+    height: 400px;
+    object-fit: contain;  
+    margin: 0;  
 }
