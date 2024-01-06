@@ -24,13 +24,23 @@
     color: white;
     margin-left: 100px;
     margin-right: 100px;
-
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+}
+.proj-info-header{
+    font-size: 20px;
+    line-height: 50px;
+    font-family: Open Sans;
+    color: black;
+    font-weight: 600;
 }
 
 .studysched{
+    font-size: 20px;
+    line-height: 50px;
     font-family: Open Sans;
-    font-weight: 300;
-    font-size: 25px;
-    text-align: center;
-    margin: 550px 40px;
+    color: rgb(150,150,150);
+    margin: 530px 40px;
+    color: gray;
 }
