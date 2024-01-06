@@ -9,6 +9,7 @@
     opacity: 0.98;
     display: flex;
     justify-content: center;
+    border-radius: 10px;
 }
 .close-info{
     position:absolute;
