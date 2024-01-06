@@ -28,12 +28,23 @@
     font-size: 20px;
     font-weight: 600;
 }
+
+.info-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.info-text-div{
+    display: flex;
+    flex-direction: column;
+    margin: 450px 20px;
+}
 .proj-info-header{
     font-size: 20px;
-    line-height: 50px;
     font-family: Open Sans;
     color: black;
     font-weight: 600;
+    margin-bottom: 0;
 }
 
 .studysched{
@@ -41,6 +52,5 @@
     line-height: 50px;
     font-family: Open Sans;
     color: rgb(150,150,150);
-    margin: 530px 40px;
     color: gray;
 }

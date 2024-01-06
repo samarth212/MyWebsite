@@ -9,5 +9,5 @@ function addInfo(info, title){
     </div>
   
     `
-    document.querySelector(".info-text").innerHTML = infoHTML
+    document.querySelector(".info-content").innerHTML = infoHTML
 }
