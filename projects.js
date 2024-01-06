@@ -12,6 +12,21 @@ function addInfo(info, title, img){
     </div>
   
     `
+
+
     document.querySelector(".info-content").innerHTML = infoHTML
+
+
 }
 
+function addCloseBar(){
+    document.querySelector('.close-info').innerHTML = `
+    
+    <p>DETAILS</p>
+    <p onclick="
+    document.querySelector('.project-info-inactive').classList.remove('project-info')
+    document.querySelector('.info-content').innerHTML = ''
+    document.querySelector('.close-info').innerHTML = ''
+    ">CLOSE</p>
+    `
+}

@@ -21,6 +21,9 @@
     justify-content: space-between;
     align-items: center;
 }
+.close-info-inactive{
+    
+}
 .close-info p{
     color: white;
     margin-left: 100px;

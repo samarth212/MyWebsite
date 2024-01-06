@@ -232,6 +232,9 @@
                 <img class="project-thumbnail" src="images/Screenshot 2023-11-17 at 7.14.18 PM.png" alt="" onclick="
 
                 document.querySelector('.project-info-inactive').classList.add('project-info')
+                document.querySelector('.close-bar-inactive').classList.add('close-bar')
+
+                addCloseBar()
                 addInfo('StudySched is an iOS app that helps students stay organized and on top of their assignments. Built app using Swift and XCode, and published it on the app store in January of 2024. You can check it out here:', 'StudySched')
                 ">
             </div>
@@ -240,11 +243,8 @@
 
                 <div class="info-content"></div>
 
-                <div class="close-info">
-                    <p>DETAILS</p>
-                    <p onclick="
-                    document.querySelector('.project-info-inactive').classList.remove('project-info')
-                    ">CLOSE</p>
+                <div class="close-info-inactive">
+                 
                 </div>
             </div>
         </div>
