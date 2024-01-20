@@ -4,11 +4,11 @@ function addInfo(info, title, img){
     let infoHTML = `
 
     <div class="img-container">
-        <img class="proj-img" src="images/IMG_3122.png" alt="">
+        <img class="proj-img" src='${img}' alt="">
     </div>
     <div class="info-text-div">
         <p class="proj-info-header">${title}</p>
-        <p class="studysched">${info} <a href="https://studysched.com" target="_blank">Info Website</a> <a href="https://github.com/samarth212/AdmitIQ" target="_blank">GitHub</a></p>
+        <p class="studysched">${info} <a href="https://studysched.com" target="_blank">Info Website</a> <a href="https://github.com/samarth212/StudySched" target="_blank">GitHub</a></p>
         <p class="close" onclick="
         document.querySelector('.project-info-inactive').classList.remove('project-info');
         document.querySelector('.info-content').innerHTML = '';
