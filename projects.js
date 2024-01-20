@@ -4,11 +4,16 @@ function addInfo(info, title, img){
     let infoHTML = `
 
     <div class="img-container">
-        <img class="proj-img" src="images/Screenshot 2023-11-17 at 7.14.18 PM.png" alt="">
+        <img class="proj-img" src="images/IMG_3122.png" alt="">
     </div>
     <div class="info-text-div">
         <p class="proj-info-header">${title}</p>
-        <p class="studysched">${info}</p>
+        <p class="studysched">${info} <a href="https://studysched.com" target="_blank">Info Website</a> <a href="https://github.com/samarth212/AdmitIQ" target="_blank">GitHub</a></p>
+        <p class="close" onclick="
+        document.querySelector('.project-info-inactive').classList.remove('project-info');
+        document.querySelector('.info-content').innerHTML = '';
+        ">CLOSE</p>
+        
     </div>
   
     `
@@ -24,9 +29,8 @@ function addCloseBar(){
     
     <p>DETAILS</p>
     <p onclick="
-    document.querySelector('.project-info-inactive').classList.remove('project-info')
-    document.querySelector('.info-content').innerHTML = ''
-    document.querySelector('.close-info').innerHTML = ''
+   
+    document.querySelector('.close-info-inactive').classList.remove('.close-info')
     ">CLOSE</p>
     `
 }
