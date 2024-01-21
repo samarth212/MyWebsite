@@ -22,7 +22,8 @@
 .project-thumbnail{
     width: 500px;
     height: 500px;
-    object-fit: contain;
+    object-fit: cover;
+    object-position: top center;
 }
 .project-thumbnail:hover{
     opacity: 0.6;
