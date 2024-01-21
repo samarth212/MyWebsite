@@ -48,3 +48,11 @@ html{
     margin-right: 80px;
     text-shadow: 2px 2px 8px rgb(0,0,0);
 }
+
+@media screen and (max-width: 450px){
+    body{
+        margin: 0;
+        background-color:aliceblue;
+        font-family: Open Sans;
+    }
+}
