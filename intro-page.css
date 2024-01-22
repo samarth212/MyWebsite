@@ -53,6 +53,7 @@ html{
     body{
         background-color:  rgb(47, 2, 124);
         background-image: none;
+        font-size: 8px;
     }
     .intro-page {
         flex-direction: column;
