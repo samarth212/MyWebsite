@@ -82,3 +82,51 @@
 
 }
 
+@media (max-width: 1000px){
+    .header {
+        flex-direction: column;
+        height: auto;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .header:hover {
+        height: auto;
+        background-color: rgba(100, 0, 255, 0.5);
+    }
+
+    .left-section {
+        margin-left: 0;
+    }
+
+    .right-section, .middle-section {
+        display: none;
+    }
+
+    .email, .number {
+        margin: 10px;
+    }
+
+    .drop-down {
+        width: 30px;
+        margin: 10px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        opacity: 1;
+    }
+
+    .nav-link {
+        margin: 10px;
+    }
+
+    .right-section a {
+        margin: 10px;
+    }
+
+    .linkedin, .instagram, .twitter, .github {
+        width: 30px;
+        margin: 5px;
+    }
+}
