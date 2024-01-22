@@ -95,7 +95,7 @@
     }
 
     .left-section {
-        margin-left: 0;
+        margin-left: 10px; 
     }
 
     .right-section, .middle-section {
@@ -115,6 +115,17 @@
         display: flex;
         flex-direction: column;
         opacity: 1;
+        position: absolute;
+        top: 80px; 
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        z-index: 1001;
+        display: none; 
+    }
+
+    .left-section:hover .menu {
+        display: flex; 
     }
 
     .nav-link {
