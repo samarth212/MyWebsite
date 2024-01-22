@@ -95,7 +95,7 @@
     }
 
     .left-section {
-        margin-left: 10px; 
+        margin-left: 10px; /* Adjusted margin for better appearance */
     }
 
     .right-section, .middle-section {
@@ -116,16 +116,16 @@
         flex-direction: column;
         opacity: 1;
         position: absolute;
-        top: 80px; 
+        top: 80px; /* Adjusted top position to align with the header */
         left: 0;
         background-color: rgba(0, 0, 0, 0.8);
         width: 100%;
-        z-index: 1001;
-        display: none; 
+        z-index: 1001; /* Ensure the dropdown is above other elements */
+        display: none; /* Initially hidden */
     }
 
     .left-section:hover .menu {
-        display: flex; 
+        display: flex; /* Show the dropdown on hover */
     }
 
     .nav-link {
