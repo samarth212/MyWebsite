@@ -50,6 +50,10 @@ html{
 }
 
 @media (max-width: 1000px){
+    body{
+        background-color:  rgb(47, 2, 124);
+        background-image: none;
+    }
     .intro-page {
         flex-direction: column;
         text-align: center;
