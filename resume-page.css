@@ -129,3 +129,43 @@
 .download-resume:active{
     opacity: 0.3;
 }
+
+@media (max-width: 1000px){
+    .resume-page {
+        height: auto;
+    }
+
+    .work-line {
+        display: none; /* Hide the vertical line on smaller screens */
+    }
+
+    .experience {
+        flex-direction: column; /* Stack the experience sections vertically */
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .role {
+        width: 100%; /* Adjust the width to take the full width */
+        margin-bottom: 20px;
+    }
+
+    .work-icon {
+        margin-left: 0; /* Align the work icon to the left */
+    }
+
+    .job {
+        margin-left: 0; /* Align the job description to the left */
+        max-width: 100%; /* Ensure the job description takes the full width */
+    }
+
+    .resume-section, .resume-title {
+        text-align: center; /* Center-align the resume section and title */
+    }
+
+    .download-resume {
+        margin: 20px; /* Add some margin to the download button */
+        text-align: center; /* Center-align the download button */
+        width: 70%; /* Set the width to 70% for better responsiveness */
+    }
+}
