@@ -52,4 +52,28 @@
         column-gap: 0;
         row-gap: 20px;
     }
+
+    .resume-title {
+        font-size: 30px; /* Adjust the font size for the resume title */
+    }
+
+    .role-title {
+        font-size: 20px; /* Adjust the font size for the role title */
+    }
+
+    .role-date {
+        font-size: 16px; /* Adjust the font size for the role date */
+    }
+
+    .company {
+        font-size: 20px; /* Adjust the font size for the company name */
+    }
+
+    .job-desc {
+        font-size: 16px; /* Adjust the font size for the job description */
+    }
+
+    .download-resume {
+        font-size: 16px; /* Adjust the font size for the download button */
+    }
 }
