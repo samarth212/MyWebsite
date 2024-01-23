@@ -42,3 +42,32 @@
     margin-bottom: 10px;
     color: white;
 }
+
+@media (max-width: 1000px) {
+    .activities-page {
+        height: auto;
+    }
+
+    .activity {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 30px;
+    }
+
+    .position-title,
+    .activity-company {
+        font-size: 16px; /* Adjust the font size for position title and activity company */
+        margin-bottom: 5px;
+    }
+
+    .activity-image {
+        width: 25px; /* Adjust the width of the activity image */
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    .activities-page-title {
+        font-size: 26px; /* Adjust the font size for the activities page title */
+        margin-top: 20px;
+    }
+}
