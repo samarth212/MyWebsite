@@ -45,7 +45,7 @@
 
 @media (max-width: 1000px) {
     .activities-page {
-        height: auto;
+        height: 1000px;
     }
 
     .activity {
