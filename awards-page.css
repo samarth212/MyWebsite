@@ -57,64 +57,68 @@
     font-size: 25px;
     color: rgb(100, 100, 100);
 }
-.awards-page {
-    height: auto; /* Adjusted height to be auto */
-    background-color: white;
-    opacity: 0.9;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
-.awards-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    margin-left: 20px; /* Reduced margin for better alignment */
-}
-
-.awards-page-title {
-    margin-top: 10px; /* Added 'px' to the margin value */
-    color: black;
-    font-family: Open Sans;
-    font-weight: 600;
-    font-size: 40px;
-    opacity: 1;
-}
-
-.award {
-    display: flex;
-    flex-direction: column; /* Adjusted to column layout for better responsiveness */
-    align-items: start; /* Aligned items to the start */
-    margin-top: 20px;
-    margin-bottom: 40px;
-}
-
-.award-img {
-    width: 30px;
-    margin-right: 10px; /* Added margin for spacing */
-}
-
-.award-text {
-    display: flex;
-    flex-direction: column;
-    align-items: start; /* Aligned text to the start */
-    justify-content: center;
-    max-width: 800px;
-    margin-top: 10px; /* Added margin for spacing */
-}
-
-.award-title {
-    font-size: 26px; /* Adjusted font size */
-    font-weight: 600;
-    color: rgb(100, 0, 255);
-    color: black;
-    margin-bottom: 5px; /* Adjusted margin for spacing */
-}
-
-.award-desc {
-    font-size: 20px; /* Adjusted font size */
-    color: rgb(100, 100, 100);
-    margin-top: 5px; /* Adjusted margin for spacing */
+@media(max-width: 1000px){
+    .awards-page {
+        height: auto; /* Adjusted height to be auto */
+        background-color: white;
+        opacity: 0.9;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .awards-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        margin-left: 20px; /* Reduced margin for better alignment */
+    }
+    
+    .awards-page-title {
+        margin-top: 10px; /* Added 'px' to the margin value */
+        color: black;
+        font-family: Open Sans;
+        font-weight: 600;
+        font-size: 40px;
+        opacity: 1;
+    }
+    
+    .award {
+        display: flex;
+        flex-direction: column; /* Adjusted to column layout for better responsiveness */
+        align-items: start; /* Aligned items to the start */
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    
+    .award-img {
+        width: 30px;
+        margin-right: 10px; /* Added margin for spacing */
+    }
+    
+    .award-text {
+        display: flex;
+        flex-direction: column;
+        align-items: start; /* Aligned text to the start */
+        justify-content: center;
+        max-width: 800px;
+        margin-top: 10px; /* Added margin for spacing */
+    }
+    
+    .award-title {
+        font-size: 26px; /* Adjusted font size */
+        font-weight: 600;
+        color: rgb(100, 0, 255);
+        color: black;
+        margin-bottom: 5px; /* Adjusted margin for spacing */
+    }
+    
+    .award-desc {
+        font-size: 20px; /* Adjusted font size */
+        color: rgb(100, 100, 100);
+        margin-top: 5px; /* Adjusted margin for spacing */
+    }
+    
 }
