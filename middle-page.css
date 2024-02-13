@@ -29,13 +29,6 @@
     opacity: 0;
 }
 .ab-title.animate__animated{
-    color: white;
-    font-family: Open Sans;
-    font-weight: 600;
-    font-size: 40px;
-    opacity: 1;
-    display: flex;
-    justify-content: center;
     opacity: 1;
 }
 .ab-desc{
