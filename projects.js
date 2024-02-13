@@ -28,6 +28,12 @@ function changeImage(source){
 
 
 $(document).ready(function() {
+
+    $(".title").waypoint(function(){
+        $(".title").addClass("animate__animated animate__zoomIn")
+    }, {offset: "80%"})
+
+
     $(".ab-title").waypoint(function(){
         $(".ab-title").addClass("animate__animated animate__fadeInLeft")
     }, {offset: "80%"})
@@ -43,4 +49,5 @@ $(document).ready(function() {
     $(".skills").waypoint(function(){
         $(".skills").addClass("animate__animated animate__fadeInRight")
     }, {offset: "80%"})
+
 })
