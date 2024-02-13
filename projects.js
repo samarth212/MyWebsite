@@ -39,4 +39,8 @@ $(document).ready(function() {
     $(".profile").waypoint(function(){
         $(".profile").addClass("animate__animated animate__fadeInLeft")
     }, {offset: "80%"})
+
+    $(".skills").waypoint(function(){
+        $(".skills").addClass("animate__animated animate__fadeInRight")
+    }, {offset: "80%"})
 })
