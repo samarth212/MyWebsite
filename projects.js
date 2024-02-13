@@ -31,4 +31,8 @@ $(document).ready(function() {
     $(".ab-title").waypoint(function(){
         $(".ab-title").addClass("animate__animated animate__fadeInLeft")
     }, {offset: "80%"})
+
+    $(".middle-desc").waypoint(function(){
+        $(".middle-desc").addClass("animate__animated animate__fadeInRight")
+    }, {offset: "80%"})
 })
