@@ -1,5 +1,3 @@
-//let info = 'StudySched is an iOS app that helps students stay organized. Used Swift and XCode to create the application. You can check it out here:'
-
 function addInfo(info, title, site, git){
 
     let infoHTML = `
@@ -27,3 +25,10 @@ function changeImage(source){
     console.log('worked')
     document.querySelector(".proj-img").src = source
 }
+
+
+$(document).ready(function() {
+    $(".ab-title").waypoint(function(){
+        $(".ab-title").addClass("animate__animated animate__fadeInLeft")
+    }, {offset: "80%"})
+})
