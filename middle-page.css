@@ -101,6 +101,13 @@
     font-weight: bold;
 }
 
+.skills{
+    opacity: 0;
+}
+.skills.animate__animated{
+    opacity: 1;
+}
+
 span{
     color:rgb(100, 100, 255);
 }
