@@ -68,6 +68,14 @@
     opacity: 1;
 }
 
+.profile{
+    opacity: 0;
+}
+.profile.animate__animated{
+    opacity: 1;
+}
+
+
 .profile-skills{
     display: flex;
     flex-direction: row;
