@@ -73,4 +73,8 @@ $(document).ready(function() {
     $(".activities-page-title").waypoint(function(){
         $(".activities-page-title").addClass("animate__animated animate__fadeInLeft")
     }, {offset: "80%"})
+
+    $(".activity").waypoint(function(){
+        $(".activity").addClass("animate__animated animate__fadeInRight")
+    }, {offset: "80%"})
 })
