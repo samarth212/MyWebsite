@@ -54,4 +54,9 @@ $(document).ready(function() {
         $(".resume-title").addClass("animate__animated animate__fadeInRight")
     }, {offset: "80%"})
 
+    $(".resume-section").waypoint(function(){
+        $(".resume-section").addClass("animate__animated animate__fadeInLeft")
+    }, {offset: "80%"})
+    
+
 })
