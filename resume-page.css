@@ -12,9 +12,10 @@
     font-family: Open Sans;
     font-weight: 600;
     font-size: 40px;
+    opacity: 0 !important;
 }
 .resume-title.animate__animated{
-    display: flex;
+    opacity: 1 !important;
 }
 
 .work-ed-experience{
