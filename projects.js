@@ -77,4 +77,8 @@ $(document).ready(function() {
     $(".activity").waypoint(function(){
         $(".activity").addClass("animate__animated animate__fadeInRight")
     }, {offset: "80%"})
+
+    $(".awards-page-title").waypoint(function(){
+        $(".awards-page-title").addClass("animate__animated animate__fadeInLeft")
+    }, {offset: "80%"})
 })
