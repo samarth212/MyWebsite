@@ -50,4 +50,8 @@ $(document).ready(function() {
         $(".skills").addClass("animate__animated animate__fadeInRight")
     }, {offset: "80%"})
 
+    $(".resume-title").waypoint(function(){
+        $(".resume-title").addClass("animate__animated animate__fadeInRight")
+    }, {offset: "80%"})
+
 })
