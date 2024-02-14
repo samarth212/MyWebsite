@@ -58,5 +58,7 @@ $(document).ready(function() {
         $(".resume-section").addClass("animate__animated animate__fadeInLeft")
     }, {offset: "80%"})
     
-
+    $(".experience").waypoint(function(){
+        $(".experience").addClass("animate__animated animate__bounce")
+    }, {offset: "80%"})
 })
