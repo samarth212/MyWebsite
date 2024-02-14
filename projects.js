@@ -65,4 +65,8 @@ $(document).ready(function() {
     $(".project-page-title").waypoint(function(){
         $(".project-page-title").addClass("animate__animated animate__fadeInLeft")
     }, {offset: "80%"})
+
+    $(".project-thumbnail").waypoint(function(){
+        $(".project-thumbnail").addClass("animate__animated animate__backInUp")
+    }, {offset: "80%"})
 })
