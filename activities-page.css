@@ -13,7 +13,7 @@
     font-family: Open Sans;
     font-weight: 600;
     font-size: 40px;
-    opacity: 1;
+    opacity: 0;
 }
 
 .activity{
@@ -21,6 +21,7 @@
     flex-direction: row;
     align-items: center;
     margin-bottom: 50px;
+    opacity:0;
 }
 
 .position-title{
