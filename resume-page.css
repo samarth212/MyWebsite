@@ -1,5 +1,5 @@
 .resume-page{
-    height: 1500px;
+    height: 1800px;
     background-color: white;
     opacity: 0.88;
     display: flex;
@@ -101,14 +101,14 @@
 .work-line{
     width: 2px;
     background-color: rgb(180, 180, 180);
-    height: 500px;
+    height: 750px;
     position: absolute;
     z-index: -1;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 450px;
-    margin-top: 300px; 
+    margin-top: 320px; 
 }
 
 .download-resume{
