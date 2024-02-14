@@ -61,4 +61,8 @@ $(document).ready(function() {
     $(".experience").waypoint(function(){
         $(".experience").addClass("animate__animated animate__bounce")
     }, {offset: "80%"})
+
+    $(".project-page-title").waypoint(function(){
+        $(".project-page-title").addClass("animate__animated animate__fadeInLeft")
+    }, {offset: "80%"})
 })
