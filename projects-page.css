@@ -25,6 +25,7 @@
     object-fit: cover;
     object-position: top center;
     opacity: 0;
+    cursor: pointer;
 }
 .project-thumbnail:hover{
     opacity: 0.6;
